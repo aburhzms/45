@@ -1,0 +1,47 @@
+#include <vector>
+#include <iostream>
+using namespace std;
+//int main()
+//{
+//	vector <int> n{ 1,2,3,1,2 };
+//	if (n[0] == 1) cout << "1. vieta ir 1 ";
+//	if (n[1] == 1) cout << "2. vieta ir 1 ";
+//	if (n[2] == 1) cout << "3. vieta ir 1 ";
+//	if (n[3] == 1) cout << "4. vieta ir 1 ";
+//	if (n[4] == 1) cout << "5. vieta ir 1 ";
+//	if (n[0] == 4) cout << "1. vieta ir 4 ";
+//	if (n[1] == 4) cout << "2. vieta ir 4 ";
+//	if (n[2] == 4) cout << "3. vieta ir 4 ";
+//	if (n[3] == 4) cout << "4. vieta ir 4 ";
+//	if (n[4] == 4) cout << "5. vieta ir 4 ";
+//}
+
+//int main()
+//{
+//	vector <string> code { "+1", "+44", "+86", "+91", "+1", "+61" };
+//	vector <string> country{ "USA", "UK", "China", "India", "Canada", "Australia" };
+//	string num, cod;
+//	cout << "1. tel num, 2. kods" << endl;
+//	cin >> num >> cod;
+//	if (code[0] == cod) cout << country[0];
+//	if (code[1] == cod) cout << country[1];
+//	if (code[2] == cod) cout << country[2];
+//	if (code[3] == cod) cout << country[3];
+//	if (code[4] == cod) cout << country[4];
+//	if (code[5] == cod) cout << country[5];
+//	cout << cod << num;
+//}
+
+//int main()
+//{
+//	vector <int> atz{ 3, 8, 7, 4 };
+//	vector <string> name{ "Anna", "Antons", "Vlads", "Artemijs" };
+//	int atzime;
+//	cout << "1. atzime, 2. vards" << endl;
+//	cin >> atzime ;
+//	if (atz[0] == atzime) cout << name[0] ;
+//	if (atz[1] == atzime) cout << name[1] ;
+//	if (atz[2] == atzime) cout << name[2] ;
+//	if (atz[3] == atzime) cout << name[3] ;
+//	cout << atzime ;
+//}
