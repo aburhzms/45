@@ -1,0 +1,90 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+//int main()
+//{
+//	vector <int> a{ 1, 2, 5, 6, 7, 3, 1, 2 };
+//	int i = 0;
+//	do {
+//		if (a[i] == 3) { cout << "atradam 3 "; }
+//		if (a[i] == 5) { cout << "atradam 5"; }
+//		i++;
+//	} while (i < a.size());
+//	a.pop_back();
+//	a.at(4) = 5;
+//	a.push_back(3);
+//	i = 0;
+//	do {
+//		cout << a[i] << endl;
+//		i++;
+//	} while (i < a.size());
+//}
+
+//int main()
+//{
+//	vector <string> b{ "galds", "kresls", "lampa", "dators", "durvis" };
+//	int i = 0;
+//	do {
+//		if (b[i] == "dators") { cout << "atradam datoru"; }
+//		if (b[i] == "skapis") { cout << "atradam skapi"; }
+//	} while (i < b.size());
+//	b.pop_back();
+//	b.at(3) = "laptops";
+//	b.push_back("logs");
+//
+//	i = 0;
+//	do {
+//		cout << b[i] << endl;
+//		i++;
+//	} while (i < b.size());
+//}
+
+//int main() {
+//	vector <string> country{ "usa", "uk", "china", "india", "canada", "australia" };
+//	vector <string> code { "+1", "+44", "+86", "+91", "+1", "+61" };
+//	int i = 0;
+//
+//	string atb;
+//	cin >> atb;
+//	do {
+//		if (country[i] == atb) cout << code[i];
+//		i++;
+//	} while (i < country.size());
+//	country.pop_back();
+//	code.pop_back();
+//	country.at(1) = "igaunija";
+//	code.at(1) = "+372";
+//	country.push_back("latvija");
+//	code.push_back("+371");
+//
+//	i = 0;
+//	do {
+//		cout << country[i] << endl;
+//		cout << code[i] << endl;
+//		i++;
+//	} while (i < country.size() && code.size());
+//}
+
+int main() {
+	vector <int> atz{ 3, 8, 7, 4 };
+	vector <string> name{ "Anna", "Antons", "Vlads", "Artemijs" };
+	int i = 0;
+
+	int abc;
+	cin >> abc;
+	do {
+		if (atz[i] == abc) cout << name[i];
+		i++;
+	} while (i < atz.size());
+	atz.pop_back();
+	name.pop_back();
+	name.at(0) = "Antons";
+	name.push_back("Alla");
+	atz. push_back(6);
+	i = 0;
+	do {
+		cout << atz[i] << endl;
+		cout << name[i] << endl;
+		i++;
+	} while (i < atz.size() && name.size());
+}
